@@ -1,0 +1,153 @@
+.container {
+
+    /* top: 150px; */
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    /* border: 10px solid black; */
+ }
+ 
+ .plusSymbol {
+    position: absolute;
+    top: 20%;
+    left: 28%;
+ }
+ 
+ 
+ 
+ /* #ones {
+    position: absolute;
+    top: 38%;
+    left: 11.5%;
+    flex-grow: 1;
+ }
+ 
+ #tens {
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    flex-grow: 1;
+ }
+  */
+ 
+ /* .gridaaa
+   {
+      position: absolute;
+      top: 43%;
+      left: 14%;
+      display: grid;
+      grid-gap: 5px;
+      
+      grid-template-columns: repeat(2, 80px);
+    
+      grid-template-rows: repeat(2, 80px);
+      
+    } */
+  
+ .square {
+    position: absolute;
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(188, 216, 86);
+    text-align: center;
+ 
+ 
+ }
+ 
+ #squareId0{
+    /* top left element */
+    position: absolute;
+    top: 45%;
+    left: 7%;
+    /* position-absolute top-0 start-0  */
+    translate:middle;
+ }
+ 
+ #squareId1 {
+    /* central element */
+    position: absolute;
+    top: 50.3%;
+    left: 9.5%;
+ }
+ 
+ #squareId2 {
+    /* top right element */
+    position: absolute;
+    top: 45%;
+    left: 11.7%;
+ }
+ 
+ #squareId3 {
+    /* bottom left element */
+    position: absolute;
+    top: 55.5%;
+    left: 7%;
+ }
+ 
+ #squareId4 {
+    /* bottom right element */
+    position: absolute;
+    top: 55.5%;
+    left: 11.9%;
+ }
+ 
+ #squareId5 {
+ /* top left element */
+    position: absolute;
+    top: 45%;
+    left: 14.3%;
+ }
+ 
+ #squareId6 {
+    /* Central element */
+    position: absolute;
+    top: 50.5%;
+    left: 16.9%;
+ 
+ }
+ 
+ #squareId7 {
+    /* top right element */
+    position: absolute;
+    top: 45%;
+    left: 19.2%;
+ }
+ 
+ #squareId8{
+ /* bottom left */
+    position: absolute;
+    top: 55.5%;
+    left: 14.3%;
+ }
+ 
+ .rectangle {
+    display: flex;
+    position: absolute;
+    /* left: 40%; */
+    min-width: 20px;
+    min-height: 168px;
+    background-color: aqua;
+    text-align: center;
+    flex-grow: 1;
+ }
+ 
+ #rectangleId0 {
+    position: absolute;
+    top: 44%;
+    left: 3.9%;
+    flex-grow: 1;
+ }
+ 
+ #rectangleId1 {
+    position: absolute;
+    top: 44%;
+    left: 1.6%;
+    flex-grow: 1;
+ }
+ 
+ .center {
+    position: absolute;
+    top: 26%;
+    left: 30%;
+ }

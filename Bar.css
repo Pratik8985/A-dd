@@ -1,0 +1,35 @@
+/* .mainContainer{
+    position: absolute;
+    left: 0px;
+} */
+.slant-line-horizontal {
+    transform: rotate(180deg);
+    position: relative;
+    top: 300px;
+    right: 1180px;
+    min-width: 310px;
+    border-top: 4px solid rgb(59, 30, 30);
+ }
+ 
+ .slant-line-Vertical{
+    transform: rotate(90deg);
+    position: relative;
+    top: 367px;
+    right: 980px;
+    min-width: 240px;
+    border-top: 4px solid rgb(59, 30, 30);
+ }
+ 
+ #ones {
+    position: absolute;
+    top: 279px;
+    left: 160px;
+    /* flex-grow: 1; */
+ }
+ 
+ #tens {
+    position: absolute;
+    top: 279px;
+    left: 40px;
+    flex-grow: 1;
+ }
